@@ -15,8 +15,6 @@ module.exports = {
     rules: [{
       test: /\.js$/i,
       use: [{
-        loader: 'eslint-loader',
-      }, {
         loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-env'],
